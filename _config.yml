@@ -103,8 +103,8 @@ analytics:
 author:
   name             : "Yeongin Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "초보 "
-  location         : "Somewhere"
+  bio              : "초보"
+  location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
