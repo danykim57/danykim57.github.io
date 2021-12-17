@@ -5,7 +5,7 @@ header:
 categories: 
   - DBSM
 tags:
-  - DB
+  - DBSB
 ---
  데이터 베이스 관리 시스템(Data Base Management System)은 편리하고 효율적으로 서로 '관계'가 있는 데이터의 보관, 관리, 활용을 도와주는 시스템이다.
  
