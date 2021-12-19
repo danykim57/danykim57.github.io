@@ -7,6 +7,7 @@ categories:
 tags:
   - Concurrency
 ---
+  출처: Modern Operating Systems 4th Edition by Andrew Tanenbaum
   
   레이스 컨디션(race condition)은 서로 다른 쓰레드나 프로세스가 공유 자원(메모리와 같은 것)을 서로 가져다가 쓰려고 하는 상황에서 벌어지는
   
