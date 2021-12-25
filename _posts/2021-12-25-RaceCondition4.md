@@ -10,7 +10,7 @@ tags:
 
 출처: Modern Operating Systems 4th Edition by Andrew Tanenbaum
 
-  세마포어의 높은 자원 이용량과 모니터의 컴퓨터 언어적 한계성을 극복하기 위한 해결법이
+   세마포어의 높은 자원 이용량과 모니터의 컴퓨터 언어적 한계성을 극복하기 위한 해결법이
   
  "메시지 패싱"이다.
  
@@ -24,18 +24,24 @@ tags:
  
  sender와 receiver는 네트워크에서 통신을 주고 받으며 만약에 메시지가 잃어버려질 경우를 고려해서
  
- special acknowledgement message라는 특별 승인 메시지를 receiver가 sender에게 보내도록 되어있다.(TCP/IP와 흡사하다)
+ special acknowledgement message라는 특별 승인 메시지를 receiver가 sender에게 보내도록 
  
- 만약에 sender가 보낸 통신이 순서가 뒤바뀌거나 빠지거나 중복된 통신을 보내는 경우들을 방지하기 위해서 각각의 통신에 연속적 숫자(consecutive number)를 부여하여서
+ 되어있다.(TCP/IP와 흡사하다)
  
- 순서에 맞게 receiver가 받도록 도와준다.
+ 만약에 sender가 보낸 통신이 순서가 뒤바뀌거나 빠지거나 중복된 통신을 보내는 경우들을 방지하기 위해서 각각의 통신에 
+ 
+ 연속적 숫자(consecutive number)를 부여하여서 순서에 맞게 receiver가 받도록 도와준다.
    
    
-   네트워크 기반인 메시지 패싱은 해당 송신자와 수신자가 우리가 원하는 개체들인지 확인하기 위해서 authentication(인증) 작업을 한다.
+   네트워크 기반인 메시지 패싱은 해당 송신자와 수신자가 우리가 원하는 개체들인지 확인하기 위해서 
    
- 라우터와 여러다른 ISP(Internet Service Provier)들을 거쳐서 통신이 되는 가정하에서 만들어진 방법이기에 한 컴퓨터 내에서
+ authentication(인증) 작업을 한다.라우터와 여러다른 ISP(Internet Service Provier), 인터넷 서비스 공급자
  
- 이용되는 경우에 여러 불필요한 작업들을 실행하여서 효율성이 조금 떨어질 수 있다.
+ 들을 거쳐서 통신이 되는 가정하에서 만들어진 방법이기에 한 컴퓨터 내에서 이용되는 경우에 여러 불필요한 작업들을 
+ 
+ 실행하여서 효율성이 조금 떨어질 수 있다.
+ 
+ 
  
   메시지 패싱에서 sender와 receiver 사이에 생산자-소비자 문제가 생길 수 있다. 이를 해결하기 위해서 mailbox라는 데이터 구조를 버퍼로서
   
