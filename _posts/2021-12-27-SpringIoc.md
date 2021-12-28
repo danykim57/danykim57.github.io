@@ -7,6 +7,8 @@ categories:
 tags:
   - Spring
 ---
+
+  출처: link: https://docs.spring.io/spring-framework/docs/current/reference/html/core.html
   
   기존에는 자바 어플리케이션을 개발하던 개발자들이 모든 객체들을 생성하고 의존관계를 연결해주었다.
   
@@ -18,8 +20,6 @@ tags:
   
   Spring에서 제어역전(Inversion of Control) 컨테이너가 객체를 생성하고 의존성을 부여해주는 역할을 한다.
   
-  제어역전(IoC)과 의존주입(DI)는 동의어라고 봐도 무방하다.
-  
   org.springframework.beans와 org.springframework.context가 스프링 IoC 컨테이너의 핵심이다.
   
   컨테이너에는 BeanFactory가 웹어플리케이션의 환경구성과 기본 기능을 지원한다. 
@@ -28,7 +28,26 @@ tags:
   
   IoC 컨테이너에 의해서 관리되는 객체들을 빈(Bean)이라고 한다.
   
-  수정중...
+ 
+ 
+ 
+  org.springframework.context.ApplicationContext는 Spring IoC 컨테이너를 위한 인터페이스이다.
+  
+  앞에서 말한바와 같이 Spring IoC 컨테이너는 웹어플리케이션의 환경구성을 가능하게 해주는데
+  
+  웹어플리케이션 환경구성은 3가지: XML, 자바 어노테이션, 자바 코드이 있다.
+  
+  
+  제어역전(IoC)을 구현할 때 의존 검색(Dependency Lookup)과 의존 주입(Dependency Injection)이 있다.
+  
+  IoC 컨테이너가 지원하는 API를 이용하여서 빈 저장소에서 검색을 하는 것이 의존 검색이다.
+  
+  사용자가 빈 설정파일에 의존관계를 추가로 입력해주면 IoC 컨테이너가 자동으로 객체간의 의존성을 조정해주는 것이
+  
+  의존 주입(Dependency Injection)이다. 
+  
+  그 외에 좀 더 다양한 방식의 IoC 컨테이너 운영 방식은 맨 위의 Spring Doc에서 찾아볼 수 있다.
+  
   
   
   
