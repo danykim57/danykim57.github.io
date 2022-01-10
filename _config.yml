@@ -16,19 +16,19 @@ minimal_mistakes_skin    : "air" #"dark," "air", "aqua", "contrast", "dark", "di
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "블로그"
+title                    : "Dan's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yeongin Kim"
-description              : "컴퓨터 공학 관련 포스팅 블로그"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Back-End, Personal writing, Tech blog"
+url                      : "https://danykim57.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://danykim57.github.io"# GitHub username/repo-name e.g. 
+repository               : "https://github.com/danykim57/danykim57.github.io" # GitHub username/repo-name e.g. 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 100
+breadcrumbs            : true # true, false (default)
+words_per_minute         : 150
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -60,8 +60,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : true # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_full_content      : true, false (default)
+search_provider          : lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
