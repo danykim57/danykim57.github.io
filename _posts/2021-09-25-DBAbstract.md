@@ -3,9 +3,9 @@ title:  "데이터베이스 시스템 개요"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - DBSM
+  - BackEnd, DBSM
 tags:
-  - DBSB
+  - DB
 ---
  데이터 베이스 관리 시스템(Data Base Management System)은 편리하고 효율적으로 서로 '관계'가 있는 데이터의 보관, 관리, 활용을 도와주는 시스템이다.
  
