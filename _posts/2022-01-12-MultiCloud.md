@@ -2,13 +2,10 @@
 title:  "MongoDB와 멀티클라우드 전략"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
-author_profile: true
-sidebar:
-    Nav: “main”
 categories: 
-  - **
+  - MongoDB
 tags:
-  - **
+  - MongoDB
 ---
   
 **Reminder: 이 포스트는 2022년 1월 6일에 있었던 MongoDB의 김준 상무님의 발표 자료에 대한 요약본입니다.
