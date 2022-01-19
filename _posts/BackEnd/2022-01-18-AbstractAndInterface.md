@@ -98,11 +98,7 @@ public class MySubclass2 implements MyInterface {
 
 인터페이스에 들어갈 수 있는 메소드의 종류는 총 4가지이다.
 
-<figure>
-    <img src="../assets/images/InterfaceStreamOracle.png"
-         alt="Interface Stream in Oracle Doc">
-    <figcaption>Interface Stream document in Oracle Doc</figcaption>
-</figure>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/InterfaceStreamOracle.png" alt="Interface Stream in Oracle Doc">
 
 link: https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
 
@@ -165,12 +161,12 @@ public interface MyInterfaceClass {
 자바에서는 특정 제한을 두어서 아 두가지 타입을 구분하고 있다.
 
 1. 추상 클래스(Abstract Class)는 다른 클래스를 상속받을 수 없다.
-2. 
-3. 인터페이스(Interface)는 상수가 아닌 변수를 필드에 가질 수 없다.
-4. 
-5. API를 만들고 추가로 메소드를 넣어주어야할 때는 인터페이스가 더 좋다.
-6. 
-7. 추상 클래스를 이용할 경우 추상 메소드가 아닌 메소드를 다른 서브클래스의 수정없이 간편하게 추가할 수 있다.
+
+2. 인터페이스(Interface)는 상수가 아닌 변수를 필드에 가질 수 없다.
+ 
+3. API를 만들고 추가로 메소드를 넣어주어야할 때는 인터페이스가 더 좋다.
+ 
+4. 추상 클래스를 이용할 경우 추상 메소드가 아닌 메소드를 다른 서브클래스의 수정없이 간편하게 추가할 수 있다.
 
 
 
