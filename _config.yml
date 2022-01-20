@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Yeongin Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Currently working on the translation of uploaded posts in English version"
+  bio              : "Out of config changes, there might be broken features"
   location         : "Republic of Korea"
   email            :
   links:
