@@ -98,7 +98,6 @@ public class MySubclass2 implements MyInterface {
 
 인터페이스에 들어갈 수 있는 메소드의 종류는 총 4가지이다.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/InterfaceStreamOracle.png" alt="Interface Stream in Oracle Doc">
 
 link: https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
 
