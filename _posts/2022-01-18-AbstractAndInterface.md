@@ -97,7 +97,7 @@ public class MySubclass2 implements MyInterface {
 ```
 
 인터페이스에 들어갈 수 있는 메소드의 종류는 총 4가지이다.
-{% include figure image_path="/assets/images/InterfaceStreamOracle.jpg" alt="Stream Oracle doc" caption="Stream doc" %}
+{% include figure image_path="../assets/images/InterfaceStreamOracle.jpg" alt="Stream Oracle doc" caption="Stream doc" %}
 
 link: https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
 
