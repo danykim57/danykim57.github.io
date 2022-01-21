@@ -54,8 +54,7 @@ tags:
  다른 클라우드에 있는 데이터베이스간의 데이터 전송이 될 수 있도록 시스템에 잘 짜여져 있습니다.
  
  핑 테스트의 데모영상은 아래 링크에서 36:00에서 확인하실 수 있습니다.
- 
- link: https://www.mongodb.com/presentations/multi-cloud-strategy-with-mongodb-korea?p=61d6b5c4f2ae772b4689c46d&utm_campaign=Int_WB_Multi-Cloud%20Strategy%20with%20MongoDB%28Korea%29_12_21_APAC_Recording&utm_medium=email&utm_source=eloqua&utm_term=%5B%C3%AB%C2%8B%C2%A4%C3%AC%C2%8B%C2%9C%C3%AB%C2%B3%C2%B4%C3%AA%C2%B8%C2%B0%5D%20MongoDB%C3%AC%C2%99%C2%80%20%C3%AD%C2%95%C2%A8%C3%AA%C2%BB%C2%98%20%C3%AC%C2%95%C2%8C%C3%AC%C2%95%C2%84%C3%AA%C2%B0%C2%80%C3%AB%C2%B3%C2%B4%C3%AB%C2%8A%C2%94%20%C3%AB%C2%A9%C2%80%C3%AD%C2%8B%C2%B0%C3%AD%C2%81%C2%B4%C3%AB%C2%9D%C2%BC%C3%AC%C2%9A%C2%B0%C3%AB%C2%93%C2%9C%20%C3%AD%C2%99%C2%9C%C3%AC%C2%9A%C2%A9%C3%AC%C2%A0%C2%84%C3%AB%C2%9E%C2%B5%20%C3%AC%C2%9B%C2%A8%C3%AB%C2%B9%C2%84%C3%AB%C2%82%C2%98
-   
   
-[^posts]: Footnote test.
+출처: 
+
+https://www.mongodb.com/presentations/multi-cloud-strategy-with-mongodb-korea?p=61d6b5c4f2ae772b4689c46d&utm_campaign=Int_WB_Multi-Cloud%20Strategy%20with%20MongoDB%28Korea%29_12_21_APAC_Recording&utm_medium=email&utm_source=eloqua&utm_term=%5B%C3%AB%C2%8B%C2%A4%C3%AC%C2%8B%C2%9C%C3%AB%C2%B3%C2%B4%C3%AA%C2%B8%C2%B0%5D%20MongoDB%C3%AC%C2%99%C2%80%20%C3%AD%C2%95%C2%A8%C3%AA%C2%BB%C2%98%20%C3%AC%C2%95%C2%8C%C3%AC%C2%95%C2%84%C3%AA%C2%B0%C2%80%C3%AB%C2%B3%C2%B4%C3%AB%C2%8A%C2%94%20%C3%AB%C2%A9%C2%80%C3%AD%C2%8B%C2%B0%C3%AD%C2%81%C2%B4%C3%AB%C2%9D%C2%BC%C3%AC%C2%9A%C2%B0%C3%AB%C2%93%C2%9C%20%C3%AD%C2%99%C2%9C%C3%AC%C2%9A%C2%A9%C3%AC%C2%A0%C2%84%C3%AB%C2%9E%C2%B5%20%C3%AC%C2%9B%C2%A8%C3%AB%C2%B9%C2%84%C3%AB%C2%82%C2%98

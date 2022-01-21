@@ -131,4 +131,3 @@ tags:
   
 
  
-[^posts]: Footnote test.

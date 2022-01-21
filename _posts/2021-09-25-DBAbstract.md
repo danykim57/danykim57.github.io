@@ -56,4 +56,3 @@ tags:
 데이터 정의 언어(Data Definition Language)
 
 SQL(Structured Query Language)은 조작과 정의 둘다 할 수 있는 언어이다.
-[^posts]: Footnote test.

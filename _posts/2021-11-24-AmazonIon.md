@@ -7,8 +7,6 @@ categories:
 tags:
   - 잡설
 ---
-
-  출처: https://amzn.github.io/ion-docs/
   
   아마존 이온은 아마존에서 운영하는 JSON(JavaScript Objective Notatoin)의 상위호환 기술이다.
   
@@ -61,4 +59,6 @@ tags:
   
  
  
-[^posts]: Footnote test.
+출처: 
+
+https://amzn.github.io/ion-docs/

@@ -8,8 +8,6 @@ tags:
   - DB
 ---
 
-출처: https://www.youtube.com/watch?v=RXQ1kZ_JHqg&list=PLimVTOIIZt2aP6msQIw0011mfVP-oJGab&index=6
-
 데이터 베이스 설계를 배우다 보면 가장 이해가 안되는 부분이 정규화 파트이다.
 
 왜 정규화가 5단계가 있는지 왜 해야하는지 명확한 설명을 찾기 힘들기 때문인데
@@ -111,4 +109,6 @@ tags:
 
 
 
-[^posts]: Footnote test.
+출처: 
+
+https://www.youtube.com/watch?v=RXQ1kZ_JHqg&list=PLimVTOIIZt2aP6msQIw0011mfVP-oJGab&index=6

@@ -7,7 +7,6 @@ categories:
 tags:
   - Java
 ---
-출처: https://openjdk.java.net/jeps/8277131
 
  무어의 법칙이 무너지면서 컴퓨터 성능을 높이기 위해 CPU의 코어수와 쓰레드 수가 폭발적으로 늘어나면서 멀티 쓰레드는 어플리케이션에서 필수 기능이 되어있다.
  
@@ -49,4 +48,6 @@ tags:
  
  결론: 쓰레드 확장성은 필요하지만 쓰레드 관리가 귀찮다면 한번쯤 버추얼 쓰레드를 써보는 건 어떨까.
 
-[^posts]: Footnote test.
+출처: 
+
+https://openjdk.java.net/jeps/8277131

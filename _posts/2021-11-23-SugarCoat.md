@@ -8,8 +8,6 @@ tags:
   - 잡설
 ---
 
-  출처: https://ucsdnews.ucsd.edu/pressrelease/SugarCoat
-  
   한국에서 ACM 컨프런스가 11월 14일 부터 19일 까지 열렸다.
   
   UC 샌디아고 컴퓨터 과학 연구진들이 사용자의 인터넷 사용 기록을 보호하는 툴, SugarCoat를 발표하였다.
@@ -56,6 +54,6 @@ tags:
   
   
   
- 
- 
-[^posts]: Footnote test.
+출처: 
+
+https://ucsdnews.ucsd.edu/pressrelease/SugarCoat

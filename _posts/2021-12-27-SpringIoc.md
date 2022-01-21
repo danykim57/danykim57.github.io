@@ -8,8 +8,6 @@ tags:
   - Spring
 ---
 
-  출처: link: https://docs.spring.io/spring-framework/docs/current/reference/html/core.html
-  
   기존에는 자바 어플리케이션을 개발하던 개발자들이 모든 객체들을 생성하고 의존관계를 연결해주었다.
   
   자바의 서블릿 라이브러리와 EJB(Enterprise Java Bean)가 나오면서 개발자가 객체에 대한 제어권을
@@ -48,12 +46,8 @@ tags:
   
   그 외에 좀 더 다양한 방식의 IoC 컨테이너 운영 방식은 맨 위의 Spring Doc에서 찾아볼 수 있다.
   
-  
-  
-  
-  
-  
 
-   
-  
-[^posts]: Footnote test.
+
+출처:
+
+https://docs.spring.io/spring-framework/docs/current/reference/html/core.html

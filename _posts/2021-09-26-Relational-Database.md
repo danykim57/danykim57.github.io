@@ -81,7 +81,3 @@ is null 이나 is not null을 써야만 한다.
 반대로 ORM(Object Relational Mapping) 기술들에서는 널이 유용하다. 이건 자바의 ORM인 JPA를 포스팅 할때 추가 하겠다.
 
 
-
-
-
-[^posts]: Footnote test.

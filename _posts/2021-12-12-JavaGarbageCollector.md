@@ -61,10 +61,8 @@ tags:
   이를 해결하기 위해서 GC는 메모리르 한쪽으로 정리 해주는 컴팩티드 알고리즘을 쓰는 쪽으로 바뀌게 된다.
   
   다음 포스팅에서는 Java8 부터 마크 앤드 스위프트 대신 쓰이게된 Garbage First Collector(G1)을 알아보도록 하겠다.
-  
-  
-  
 
    
-  
-[^posts]: Footnote test.
+출처: 
+
+

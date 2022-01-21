@@ -56,7 +56,3 @@ HTTP 프로토콜의 장점인 '언제나' 같은 글과 이미지를 열람 가
 
 그에 대한 예로서 쿠키 기능이나 HTTPS, SSL이 있다.
 
-
-
-
-[^posts]: Footnote test.

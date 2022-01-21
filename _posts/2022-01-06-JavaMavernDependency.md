@@ -7,9 +7,6 @@ categories:
 tags:
   - Java
 ---
-  
- 출처: link: https://arxiv.org/abs/2105.14226
-      link: https://arxiv.org/pdf/2105.14226.pdf
       
   자바 프로젝트는 여러개의 자바 소스 파일들과 환경설정 파일들로 이루어져있다.
 
@@ -43,11 +40,17 @@ Soto-Valero, Durieux, Baudry의 연구에 따르면 Github에서 구한 약 31,0
 
 DepClean의 깃허브 주소는 아래와 같다.
 
-출처: link: https://github.com/castor-software/depclean
+출처:
+
+https://github.com/castor-software/depclean
 
 DepClean은 필요없는 의존성을 줄여주는 debloating 도구로서 메이븐 빌드의 성능, 메모리 사용 및 컴퓨터 자원 사용의
 
 효율성을 위해서 사용하는 것을 권장한다.
-   
-  
-[^posts]: Footnote test.
+
+
+출처: 
+
+link: https://arxiv.org/abs/2105.14226
+
+link: https://arxiv.org/pdf/2105.14226.pdf

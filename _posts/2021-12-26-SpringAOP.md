@@ -7,10 +7,7 @@ categories:
 tags:
   - Spring
 ---
-  
-   출처: link:https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html
-        link:https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html
-  
+
   Spring은 자바 기업용 어플리케이션을 위한 프레임워크이다. 기존에 J2EE라는 자바 기업용 어플리케이션을 위한 프레임워크가
   
 있었지만 Sun Microsystem이 만들고 오라클이 구현하였던 J2EE는 전문적이지만 개발자들에게 사용상의 편의성이 안좋았기에
@@ -86,7 +83,12 @@ Weaving: 조정된 객체(advised object)를 만들기 위해서 다른 어플�
 Weaving은 컴파일, 로드, 실행시간에서 일어날 수 있게 할 수 있다.
 
   예제 실행코드는 위의 스프링 문서화에서 찾아 볼 수 있다.
- 
-   
-  
-[^posts]: Footnote test.
+
+
+출처:
+
+https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html
+
+https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html
+
+

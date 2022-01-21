@@ -8,9 +8,6 @@ tags:
   - 설계
 ---
 
-출처: link: https://web.archive.org/web/20110219163418/http://howtohft.wordpress.com/2011/02/15/building-a-trading-system-general-considerations/
-     link: https://web.archive.org/web/20110219163448/http://howtohft.wordpress.com/2011/02/15/how-to-build-a-fast-limit-order-book/
-     
    와우, 룬스케이프등 MMORPG에서 많이 적용되면서 가장 유저들에게 친숙한 경매장 시스템의 베이스인 거래시스템에
   
  대해서 이번 포스트에서 말해보고 실제로 자바와 스프링 프레임워크로 단순한 거래시스템의 기능 중 하나인 주문 대장을 만들어보는 것을 다음 포스팅에서 해볼려고 한다.
@@ -85,9 +82,7 @@ tags:
       Limit *sellTree;
       Limit *lowestSell;
       Limit *highestBuy;
-      
-   출처: link: https://web.archive.org/web/20110219163448/http://howtohft.wordpress.com/2011/02/15/how-to-build-a-fast-limit-order-book/
- 
+
  Limit 객체들은 트리 구조(O(log N))를 취하도록 인터페이스를 짜준다. Order 객체들이 양방향 링크드 리스트(O(N))로 연결되게 하여서 순서를 잡아준다. 
  
  Limit 클래스의 매수 매도트리들을 각 대장(Book)별로 따로 만들어서 관리해준다.
@@ -105,7 +100,10 @@ tags:
  메모리 정리 기능을 끄고 거래 처리 시간을 더 늘리는 방법도 있다.
    
   
+출처:
 
-   
-  
-[^posts]: Footnote test.
+출처: https://web.archive.org/web/20110219163418/http://howtohft.wordpress.com/2011/02/15/building-a-trading-system-general-considerations/
+
+https://web.archive.org/web/20110219163448/http://howtohft.wordpress.com/2011/02/15/how-to-build-a-fast-limit-order-book/
+
+https://web.archive.org/web/20110219163448/http://howtohft.wordpress.com/2011/02/15/how-to-build-a-fast-limit-order-book/

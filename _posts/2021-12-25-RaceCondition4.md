@@ -61,8 +61,11 @@ tags:
  다른 프로세스가 작업을 끝날 때까지 기다리게 만드는 것 이다.
  
  책에서 나오는 열역학을 이용한 예제보다 아래의 영상이 더 쉽고 자세하게 설명을 하여서 아래 링크를 공유한다.
- 
- 출처: link: https://www.youtube.com/watch?v=M1e9nmmD3II
+
+출처: 
+
+Modern Operating Systems 4th Edition by Andrew Tanenbaum
+
+https://www.youtube.com/watch?v=M1e9nmmD3II
   
   
-[^posts]: Footnote test.

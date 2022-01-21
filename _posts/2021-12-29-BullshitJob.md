@@ -8,8 +8,6 @@ tags:
   - 잡설
 ---
 
-  출처: link: https://paulbutler.org/2021/play-to-earn-and-bullshit-jobs/
-  
    글을 시작하기에 앞서 2020년 9월 2일 유럽에서 생을 마감한 아마 현재 동시대에서 가장 유명한 인류학자인
    
  David Graeber에게 추모를 보낸다.
@@ -82,16 +80,12 @@ tags:
 전혀 새로운 형태의 현상이 아니다. 
 
   버틀러가 내세운 두번째 이유에 대해서는 전적으로 동의한다. 앞의 Web3글 마지막에서 언급하였듯이 
-  
-출처: link: https://danykim57.github.io/web3/Web3Continued/
 
 P2E와 NFT를 내세운 사업들은 사기로 변질될 가능성이 너무나도 농후하다. 시장의 소비자를 보호해줄
 
 어떠한 장치도 제대로 갖추어지지 않은채 그저 새로운 기술이라고 표방한 NFT가 마법의 봉처럼 구는 것은
 
 기만이다. 우리는 이미 소비자보호를 위한 장치가 너무나도 부실한 시장이 어떻게 변질되어가는지 올해 지켜보았다.
-
-출처: link: https://www.youtube.com/watch?v=L2xI6a66I3E
 
 그렇다고 본인은 게임 내에서 현금으로 치환이 가능한 재화의 생산을 반대하지는 않는다. 
 
@@ -136,4 +130,8 @@ P2E와 NFT를 내세운 사업들은 사기로 변질될 가능성이 너무나�
 최선의 선택일 가능성이 높기 때문이다.
 
 
-[^posts]: Footnote test.
+출처: 
+
+https://paulbutler.org/2021/play-to-earn-and-bullshit-jobs/
+
+https://www.youtube.com/watch?v=L2xI6a66I3E

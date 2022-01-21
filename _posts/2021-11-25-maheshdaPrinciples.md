@@ -8,8 +8,6 @@ tags:
   - 분산시스템 설계
 ---
 
-  출처: https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html
-  
   페이스북(현:메타)에서 인프라 설계를 맡았던 Maheshda의 포스팅을 다루어 본다.
   
   Mahesdha는 크게 설계의 원칙을 7개로 나누었다 : 고객, 프로젝트 관리, 디자인, 코드 리뷰, 전략, 측정, 연구.
@@ -71,4 +69,6 @@ tags:
   4. 고객이 간접적으로 요구하거나 말하지 못하는 것을 찾아서 해결해 주어라.
  
  
-[^posts]: Footnote test.
+출처: 
+
+https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html

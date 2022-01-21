@@ -7,8 +7,6 @@ categories:
 tags:
   - Concurrency
 ---
-
-출처: Modern Operating Systems 4th Edition by Andrew Tanenbaum
    
 1. 모니터(Monitors)
 
@@ -80,4 +78,6 @@ sleep and wait에서 보았던 레이스 컨디션이 일어날 수 있는데 �
 사용하지 못하는 방식이다. 이 문제점들을 해결하기 위한 것이 Message Passing인데 이것은 다음 장에서 알아보자.
    
   
-[^posts]: Footnote test.
+출처: 
+
+Modern Operating Systems 4th Edition by Andrew Tanenbaum

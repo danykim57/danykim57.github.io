@@ -7,8 +7,6 @@ categories:
 tags:
   - Web3
 ---
-출처:  link: https://www.youtube.com/watch?v=Y2B1NrKQJhU
-      link: https://www.usenix.org/publications/loginonline/web3-fraud
      
    지난 Web3 포스팅의 연장선인 글이다.
    
@@ -132,8 +130,8 @@ tags:
   
   
   
-  
+출처:
 
-   
-  
-[^posts]: Footnote test.
+https://www.usenix.org/publications/loginonline/web3-fraud
+
+https://www.youtube.com/watch?v=Y2B1NrKQJhU

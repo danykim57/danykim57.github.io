@@ -111,4 +111,6 @@ tags:
 
 다음 포스팅에서는 이 두가지를 좀 더 보완한 해결책들에 대해서 알아보도록 하겠다.
 
-[^posts]: Footnote test.
+출처: 
+
+Modern Operating Systems 4th Edition by Andrew Tanenbaum

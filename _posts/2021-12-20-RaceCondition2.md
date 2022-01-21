@@ -120,5 +120,6 @@ tags:
  
  다음 장에서는 모니터라고 하는 좀 더 범용적인 해결법에 대해서 알아 보겠다.
    
-  
-[^posts]: Footnote test.
+출처: 
+
+Modern Operating Systems 4th Edition by Andrew Tanenbaum

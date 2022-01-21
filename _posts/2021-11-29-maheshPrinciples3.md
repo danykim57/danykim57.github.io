@@ -8,8 +8,6 @@ tags:
   - 분산시스템 설계
 ---
 
-  출처: https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html
-  
   전략
   
   31. 다양한 방식으로 스스로에게 물어보아라. 왜 이 프로젝트가 있어야 하는지? 이 프로젝트가 없으면 무엇이 달라지는지. 회사나 사회에 이 프로젝트가 어떻게 기여를 하는지.
@@ -44,4 +42,6 @@ tags:
   
 
       
-[^posts]: Footnote test.
+출처: 
+
+https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html

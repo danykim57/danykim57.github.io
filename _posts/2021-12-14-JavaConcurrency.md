@@ -86,4 +86,5 @@ tags:
 
    
   
-[^posts]: Footnote test.
+출처: 
+

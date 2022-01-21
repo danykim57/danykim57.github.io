@@ -8,8 +8,6 @@ tags:
   - 분산시스템 설계
 ---
 
-  출처: https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html
-  
   프로젝트 관리
   
   5. 현실적이고 이성적인 미션 문구를 말들어라
@@ -82,4 +80,6 @@ tags:
       
 
       
-[^posts]: Footnote test.
+출처: 
+
+https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html

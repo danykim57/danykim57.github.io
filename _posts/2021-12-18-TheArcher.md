@@ -76,4 +76,3 @@ tags:
  
  입만 벌리고 있는 것은 양심이 없는 일이 아닌가.
   
-[^posts]: Footnote test.

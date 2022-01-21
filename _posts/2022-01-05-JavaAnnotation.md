@@ -43,12 +43,17 @@ tags:
 
 
  예제)
+```
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.Type)
 public @interface JsonSerializable {
 }
 
-출처: link: https://www.baeldung.com/java-custom-annotation
+```
+
+출처: 
+
+https://www.baeldung.com/java-custom-annotation
 
 
    

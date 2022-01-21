@@ -99,7 +99,7 @@ public class MySubclass2 implements MyInterface {
 인터페이스에 들어갈 수 있는 메소드의 종류는 총 4가지이다.
 {% include figure image_path="/assets/images/InterfaceStreamOracle.png" alt="Stream Oracle doc" caption="Stream doc" %}
 
-link: https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
+https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
 
 인터페이스에 있는 메소드들은 Static Methods, Instance Methods, Abstract Methods, Default Methods로 나누어진다.
 
@@ -175,16 +175,16 @@ public interface MyInterfaceClass {
 
 
 
-[^posts]: References 참조
+참조: 
 
 Java in a Nutshell, 7th Edition By Ben Evans, David Flanagan
 
-link: http://tutorials.jenkov.com/java/abstract-classes.html
+http://tutorials.jenkov.com/java/abstract-classes.html
 
-link: https://docs.oracle.com/javase/tutorial/java/concepts/interface.html
+https://docs.oracle.com/javase/tutorial/java/concepts/interface.html
 
-link: https://www.baeldung.com/java-static-default-methods
+https://www.baeldung.com/java-static-default-methods
 
-link: https://www.geeksforgeeks.org/instance-methods-in-java/
+https://www.geeksforgeeks.org/instance-methods-in-java/
 
-Advanced Java by Ken Kousen link: https://learning.oreilly.com/videos/advanced-java-development/9781491960400/
+Advanced Java by Ken Kousen https://learning.oreilly.com/videos/advanced-java-development/9781491960400/
