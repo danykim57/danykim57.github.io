@@ -47,9 +47,9 @@ References:
 
 Kubernetes in Action by Marco Luksa
 
-https://dev.to/alex_barashkov/microservices-vs-monolith-architecture-4l1m
+[alex_barashkov: microservices vs monolith architecture](https://dev.to/alex_barashkov/microservices-vs-monolith-architecture-4l1m)
 
-https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/
+[ZDnet: What is docker and why is it so darn popular](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
 
   
 
