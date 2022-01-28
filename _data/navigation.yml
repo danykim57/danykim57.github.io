@@ -3,7 +3,7 @@ main:
   - title: "BackEnd"
     children:
       -title: "BackEnd"
-       url: backend/
+       url: ../_posts/Backend/
        category: "BackEnd"
   - title: "잡설"
     children:
