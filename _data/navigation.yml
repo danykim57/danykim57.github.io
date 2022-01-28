@@ -8,5 +8,5 @@ main:
   - title: "잡설"
     children:
       - title: "잡설"
-        url: 잡설/
+        url: ../_posts/잡설/
         category: "잡설"
