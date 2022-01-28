@@ -3,7 +3,7 @@ title:  "관계형 데이터베이스 개요"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - BackEnd, DBMS
+  - BackEnd
 tags:
   - DB
 ---

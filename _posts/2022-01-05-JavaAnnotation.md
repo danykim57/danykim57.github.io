@@ -3,7 +3,7 @@ title:  "자바 어노테이션"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - Java, Annotation
+  - BackEnd
 tags:
   - Java
 ---

@@ -3,7 +3,7 @@ title:  "아마존 이온과 일반 기업과의 기술력 차이"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - 잡설
+  - etc
 tags:
   - 잡설
 ---

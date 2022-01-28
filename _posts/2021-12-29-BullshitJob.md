@@ -3,7 +3,7 @@ title:  "P2E는  쓸모없는 작업인가"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - 잡설
+  - etc
 tags:
   - 잡설
 ---

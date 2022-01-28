@@ -1,26 +1,36 @@
-{% assign navigation = site.data.navigation[include.nav] %}
+<!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+<!--출처 식빵맘-->
+
+{% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
-  <ul class="nav__items">
-    {% for nav in navigation %}
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
       <li>
-        {% if nav.url %}
-          <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
-        {% else %}
-          <span class="nav__sub-title">{{ nav.title }}</span>
-        {% endif %}
-
-        {% if nav.children != null %}
-        <ul>
-          {% for child in nav.children %}
-            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
-          {% endfor %}
-        </ul>
-        {% endif %}
+            <span style="font-family:'serif';">전체 글 수</style> <span style="font-family:'serif';">{{sum}}</style> <span style="font-family:'serif';">개</style>
       </li>
-    {% endfor %}
+      <li>
+        <span class="nav__sub-title">BackEnd</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
+                {% for category in site.categories %}
+                    {% if category[0] == "BackEnd" %}
+                        <li><a href="/categories/backend" class="">BackEnd({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">잡설</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
+                {% for category in site.categories %}
+                    {% if category[0] == "etc" %}
+                        <li><a href="/categories/잡설" class="">잡설({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
   </ul>
 </nav>

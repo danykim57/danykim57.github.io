@@ -3,7 +3,7 @@ title:  "데이터베이스 시스템 개요"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - BackEnd, DBSM
+  - BackEnd
 tags:
   - DB
 ---

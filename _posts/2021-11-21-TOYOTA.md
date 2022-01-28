@@ -3,7 +3,7 @@ title:  "도요타의 전고체 배터리 생산과 향후 방향"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - 잡설
+  - etc
 tags:
   - 잡설
 ---

@@ -1,13 +1,11 @@
-# main links
-main:
-  - title: "BackEnd"
+docs:
+  - title: BackEnd
     children:
-      -title: "BackEnd"
-       url: ../_posts/Backend/
-       category: "BackEnd"
-
-  - title: "잡설"
+      - title: "BackEnd"
+        url: categories/backend
+        category: "BackEnd"
+  - title: 잡설
     children:
       - title: "잡설"
-        url: ../_posts/잡설/
+        url: categories/잡설
         category: "잡설"
