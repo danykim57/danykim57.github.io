@@ -98,6 +98,6 @@ Dockerfile이 없는 경우 위와 같은 에러 메세지를 돌려주는데
 
 이것은 아래의 스택오버플로우 링크를 걸어두겠다.
 
-link: https://stackoverflow.com/questions/64985913/failed-to-solve-with-frontend-dockerfile
+[Stack Overflow dockerfile](https://stackoverflow.com/questions/64985913/failed-to-solve-with-frontend-dockerfile)
 
 출처: Kubernetes in Action by Marco Luksa
