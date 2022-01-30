@@ -3,7 +3,7 @@ title:  "쿠버네티스는 왜 복잡한가"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
-  - BackEnd 
+- BackEnd 
 tags:
   - BackEnd
 ---

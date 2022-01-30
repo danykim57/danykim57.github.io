@@ -2,7 +2,7 @@ docs:
   - title: BackEnd
     children:
       - title: "BackEnd"
-        url: categories/backend
+        url: categories/backenㅇ
         category: "BackEnd"
   - title: 잡설
     children:
