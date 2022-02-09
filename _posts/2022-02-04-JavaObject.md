@@ -3,9 +3,9 @@ title:  "자바 Object와 toString, equals, hashCode"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
-  - 잡설
+  - BackEnd
 tags:
-  - 잡설
+  - BackEnd
 ---
   모든 자바의 클래스는 Object 클래스를 상속받는다.
   
