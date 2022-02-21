@@ -3,7 +3,7 @@ title:  "MongoDB와 멀티클라우드 전략"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - BackEnd
+  - architecture
 tags:
   - MongoDB
 ---

@@ -21,10 +21,43 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">잡설</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
+                {% for category in site.categories %}
+                    {% if category[0] == "java" %}
+                        <li><a href="/categories/java" class="">자바({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "os" %}
+                        <li><a href="/categories/os" class="">OS({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "db" %}
+                        <li><a href="/categories/db" class="">DB({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "network" %}
+                        <li><a href="/categories/network" class="">네트워크({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "architecture" %}
+                        <li><a href="/categories/architecture" class="">설계({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">잡설</span>
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "etc" %}
                         <li><a href="/categories/잡설" class="">잡설({{category[1].size}})</a></li>

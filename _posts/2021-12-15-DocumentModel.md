@@ -3,7 +3,7 @@ title:  "관계형 데이터베이스와 문서형 모델 데이터베이스"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - BackEnd
+  - db
 tags:
   - DB
 ---

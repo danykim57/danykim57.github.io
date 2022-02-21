@@ -3,7 +3,7 @@ title:  "성공적인 시스템 설계를 위한 원칙들 - 3"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - BackEnd
+  - architecture
 tags:
   - 분산시스템 설계
 ---

@@ -3,7 +3,7 @@ title:  "오픈 JDK 버츄얼 쓰레드 업데이트"
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - BackEnd
+  - java
 tags:
   - Java
 ---

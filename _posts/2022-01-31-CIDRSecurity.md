@@ -3,7 +3,7 @@ title:  "오픈 데이터베이스와 방화벽의 중요성"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
-  - 잡설
+  - etc
 tags:
   - 잡설
 ---
