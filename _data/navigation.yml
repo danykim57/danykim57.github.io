@@ -1,8 +1,10 @@
 docs:
+  - title: Home
+    url: /index.html
   - title: BackEnd
     children:
       - title: "BackEnd"
-        url: categories/backenㅇ
+        url: categories/backend
         category: "BackEnd"
   - title: 잡설
     children:
