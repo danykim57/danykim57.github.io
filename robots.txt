@@ -1,3 +1,2 @@
 user-agent: *
 allow: /
-Sitemap: http://danykim57.github.io/sitemap.xml
