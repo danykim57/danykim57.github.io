@@ -30,6 +30,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "k8s" %}
+                        <li><a href="/categories/k8s" class="">Kubernetes({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "os" %}
                         <li><a href="/categories/os" class="">OS({{category[1].size}})</a></li>
                     {% endif %}
