@@ -150,7 +150,7 @@ public interface MyInterfaceClass {
 
 Interface 클래스의 접근제어자는 기본값이 같은 package 안에서만 가능하도록 되어 있다.
 
-
+Interface 클래스의 메소드들은 기본값이 public 이다.
 
 
 
