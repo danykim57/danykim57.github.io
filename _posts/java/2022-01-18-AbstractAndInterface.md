@@ -148,6 +148,10 @@ public interface MyInterfaceClass {
 
 클래스에 있는 디폴트 메소드가 우선권을 가져간다.
 
+Interface 클래스의 접근제어자는 기본값이 같은 package 안에서만 가능하도록 되어 있다.
+
+
+
 
 
 
@@ -161,7 +165,7 @@ public interface MyInterfaceClass {
 
 1. 추상 클래스(Abstract Class)는 다른 클래스를 상속받을 수 없다.
 
-2. 인터페이스(Interface)는 상수가 아닌 변수를 필드에 가질 수 없다.
+2. 인터페이스(Interface)는 상수(모든 Interface의 필드는 static final이다.)가 아닌 변수를 필드에 가질 수 없다.
  
 3. API를 만들고 추가로 메소드를 넣어주어야할 때는 인터페이스가 더 좋다.
  
@@ -169,9 +173,13 @@ public interface MyInterfaceClass {
 
 
 
+주석: 자바에서는 공식적으로 상수를 지원하지는 않는다. 상수는 초기에 생성된 값을 변경하지 않겠다는 약속인데 객체 지향적인 디자인에서
 
+이런 약속은 안지켜질 수 있다. static으로 객체가 아닌 클래스 타입에 종속되게 하면서 컴파일링 때 생성을 하게 만들고
 
+final로 가르키는 레퍼런스를 고정시키면서 변경을 힘들게 할 수 있다. final과 불변경(immutable)인 primitive 타입 같은 경우에는
 
+static이 없어도 상수의 역할을 비슷하게 할 수 있다.
 
 
 
