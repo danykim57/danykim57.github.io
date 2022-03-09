@@ -1,5 +1,5 @@
 ---
-title:  "스프링 기초 시리즈 - 1"
+title:  "스프링 기초 시리즈 - 의존성과 ApplicationContext"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
