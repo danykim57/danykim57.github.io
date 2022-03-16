@@ -13,9 +13,6 @@ ClassPath를 이용한 의존성 주입을 다음과 같이 진행해 보았었�
 ```
 package com.dan.practice.demos.myapp;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class MyService {
 
     private MyRepository repo;
@@ -38,9 +35,6 @@ public class MyService {
 ```
 package com.dan.practice.demos.myapp;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class MyService {
 
     private MyRepository repo;
@@ -69,9 +63,6 @@ MyService 클래스를 변경하였다.
 ```
 package com.dan.practice.demos.myapp;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class MyService {
 
     private MyRepository repo;
