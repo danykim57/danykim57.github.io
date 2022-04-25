@@ -3,9 +3,9 @@ title:  "체크드, 언체크드 예외 - Checked and Unchecked Exception"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
-- java
+  - java
 tags:
-- BackEnd
+  - BackEnd
 ---
 
   자바에서 메소드를 실행시켰을 때 의도하지 않은 경우인 예외가 생겼을 때 메소드는 런타임 시스템에 Exception 객체를 넘겨주게 된다.

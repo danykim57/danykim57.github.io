@@ -3,9 +3,9 @@ title:  "바인딩: Early binding and late binding"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
-- java
+  - java
 tags:
-- BackEnd
+  - BackEnd
 ---
 
  자바에서 하위클래스의 객체를 상위 클래스를 받는 레퍼런스에 담을 수 있고

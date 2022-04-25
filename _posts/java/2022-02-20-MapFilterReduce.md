@@ -3,9 +3,9 @@ title:  "map(), filter(), reduce()"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
-- java
+  - java
 tags:
-- BackEnd
+  - BackEnd
 ---
  함수형 프로그래밍의 정의는 불명확하다. 그러나 사람들이 말할 때 몇몇 특징들이 있다.
 
