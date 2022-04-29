@@ -7,8 +7,8 @@ layout: null
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     {% for post in site.posts %}
-    {% unless post.published == false %}
-    <url>
+      {% unless post.published == false %}
+      <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
         {% if post.sitemap.lastmod %}
         <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
@@ -27,7 +27,7 @@ layout: null
         {% else %}
         <priority>0.5</priority>
         {% endif %}
-    </url>
-    {% endunless %}
+      </url>
+      {% endunless %}
     {% endfor %}
 </urlset>
