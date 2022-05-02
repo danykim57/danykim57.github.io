@@ -24,7 +24,7 @@ Maven을 이용한 초간단 웹앱을 만들어 보았다.
 
 메이븐에서 빌드 설정과 의존성 관리 파일인 pom.xml 파일을 다음과 같이 설정한다.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -104,7 +104,7 @@ form등을 이용하여서 서버에 데이터 생성, 수정을 하도록 요�
 
 컨트롤러 클래스로 MyController를 다음과 같이 작성하여주었다.
 
-```
+```java
 package com.example.demo;
 
 import org.springframework.context.annotation.Bean;
@@ -122,7 +122,7 @@ public class AppConfig {
 }
 ```
 
-```
+```java
 package com.example.demo;
 
 import org.springframework.stereotype.Controller;
@@ -187,7 +187,7 @@ The time is <%= new java.util.Date() %>!
 
 web.xml
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <web-app>
     <servlet>
@@ -204,7 +204,7 @@ web.xml
 ```
 
 webappdemo-servlet.xml
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

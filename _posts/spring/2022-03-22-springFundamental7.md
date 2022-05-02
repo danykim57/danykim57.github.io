@@ -12,7 +12,7 @@ tags:
 
 환경 설정을 위한 자바 클래스를 다음과 같이 작성하였다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.annotation.ComponentScan;
@@ -32,7 +32,7 @@ public class AppConfig {
 
 MyService 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,7 +60,7 @@ public class MyService {
 
 MyRepository 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.stereotype.Repository;
@@ -84,7 +84,7 @@ my.name=Dan
 
 App 클래스 또한 다음과 같이 변경 시켜주었다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.ApplicationContext;
@@ -129,7 +129,7 @@ DevelopmentConfig 클래스, ProductionConfig 클래스, application-local.prope
 
 DevelopmentConfig 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp.config;
 
 import org.springframework.context.annotation.ComponentScan;
@@ -149,7 +149,7 @@ public class DevelopmentConfig {
 
 ProductionConfig 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp.config;
 
 import org.springframework.context.annotation.ComponentScan;
@@ -180,7 +180,7 @@ service.baseUrl=https://prd.myservice.com:8082/MyApp
 
 MyService 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -224,7 +224,7 @@ public class MyService implements EnvironmentAware {
 
 App 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import com.dan.practice.demos.myapp.config.DevelopmentConfig;
@@ -257,7 +257,7 @@ Doing DB query!
 
 App 클래스의 System.setProperty함수의 파라미터를 "local"에서 "prod"로 바꾸어 주었다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import com.dan.practice.demos.myapp.config.DevelopmentConfig;

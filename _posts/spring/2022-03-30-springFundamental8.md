@@ -27,7 +27,7 @@ Dynamic Proxy는 JdkDynamicAopProxy와 CGLIB을 통해서 구현된다.
 
 App Class
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.aop.framework.ProxyFactoryBean;
@@ -48,7 +48,7 @@ public class App {
 
 IPerson Interface
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 public interface IPerson {
@@ -58,7 +58,7 @@ public interface IPerson {
 
 Person Class
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 public class Person implements IPerson {
@@ -89,7 +89,7 @@ IPerson Interface는 삭제하고 Person은 더이상 IPerson을 구현하지 �
 
 App Class
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.aop.framework.ProxyFactoryBean;
@@ -110,7 +110,7 @@ public class App {
 
 Person Class
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 public class Person {

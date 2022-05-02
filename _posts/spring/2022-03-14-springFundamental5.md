@@ -10,7 +10,7 @@ tags:
   
 ClassPath를 이용한 의존성 주입을 다음과 같이 진행해 보았었다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 public class MyService {
@@ -32,7 +32,7 @@ public class MyService {
 
 바로 객체를 생성하여서 쓰면 이런 모습이 된다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 public class MyService {
@@ -60,7 +60,7 @@ Constructor를 쓰지 않고 Setter로 의존성을 주입해보겠다.
 
 MyService 클래스를 변경하였다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 public class MyService {
@@ -88,7 +88,7 @@ public class MyService {
 
 resources 아래의 applicationContext.xml을 다음과 같이 변경하였다.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -102,7 +102,7 @@ resources 아래의 applicationContext.xml을 다음과 같이 변경하였다.
 
 App 클래스를 변경후에 실행시켜보겠다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.ApplicationContext;

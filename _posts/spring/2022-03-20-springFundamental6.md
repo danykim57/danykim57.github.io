@@ -11,7 +11,7 @@ tags:
   
 이전에 만들었던 MyService 클래스를 인터페이스로 만들고 구현체를 따로 작성해보겠다.
 
-```
+```java
 package com.dan.practice.demos.myapp.business;
 
 public interface MyService {
@@ -21,7 +21,7 @@ public interface MyService {
 ```
 MyService 구현체: MyServiceImpl
 
-```
+```java
 package com.dan.practice.demos.myapp.business;
 
 import com.dan.practice.demos.myapp.data.MyRepository;
@@ -48,7 +48,7 @@ public class MyServiceImpl implements MyService {
 ```
 MyService 구현체: AnotherServiceImpl
 
-```
+```java
 package com.dan.practice.demos.myapp.business;
 
 import com.dan.practice.demos.myapp.data.AnotherRepositoryImpl;
@@ -75,7 +75,7 @@ public class AnotherServiceImpl implements MyService {
 
 MyRepository 또한 인터페이스로 변형시켜주고 따로 구현체를 작성해보았다.
 
-```
+```java
 package com.dan.practice.demos.myapp.data;
 
 public interface MyRepository {
@@ -86,7 +86,7 @@ public interface MyRepository {
 
 MyRepository 구현체: MyRepositoryImpl
 
-```
+```java
 package com.dan.practice.demos.myapp.data;
 
 import org.springframework.stereotype.Repository;
@@ -103,7 +103,7 @@ public class MyRepositoryImpl implements MyRepository {
 
 MyRepository 구현체: AnotherRepositoryImpl
 
-```
+```java
 package com.dan.practice.demos.myapp.data;
 
 import org.springframework.stereotype.Repository;
@@ -120,7 +120,7 @@ public class AnotherRepositoryImpl implements MyRepository {
 
 App 클래스도 다음과 같이 변경시켜주었다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import com.dan.practice.demos.myapp.business.AnotherServiceImpl;
@@ -147,7 +147,7 @@ public class App {
 
 설정해주었다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.annotation.Bean;

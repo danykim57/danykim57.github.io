@@ -45,7 +45,7 @@ test {
 
 DemoApp 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -60,7 +60,7 @@ public class DemoApp {
 
 AppConfig 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.annotation.Bean;
@@ -88,7 +88,7 @@ public class AppConfig {
 
 DAO 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -124,7 +124,7 @@ public class DAO extends JdbcDaoSupport {
 
 AppConfig 클래스만 변경하였다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.apache.tomcat.dbcp.dbcp.BasicDataSource;

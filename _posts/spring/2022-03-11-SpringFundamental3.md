@@ -18,7 +18,7 @@ tags:
 
 데이터베이스에 접근을 하는 MyRepository라는 클래스를 만들어 주었다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 public class MyRepository {
@@ -31,7 +31,7 @@ public class MyRepository {
 
 MyService를 MyRepository 객체를 받고 사용할 수 있도록 변경하였다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.stereotype.Component;
@@ -54,7 +54,7 @@ public class MyService {
 
 resources 디렉토리의 application-property.xml 파일을 변경해주었다.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

@@ -16,7 +16,7 @@ tags:
   
 App 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.ApplicationContext;
@@ -33,7 +33,7 @@ public class App {
 
 AppConfig 클래스 
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.annotation.Bean;
@@ -62,7 +62,7 @@ public class AppConfig {
 
 OrderService 클래스
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.stereotype.Service;
@@ -101,7 +101,7 @@ service는 다음과 같이 SPRINGCGLIB에 의해서 생성된다.
 service.placeOrder() 함수가 실행되기 전에 @Transactional에 의해서 CglibAopProxy 클래스의 intercept함수를 요쳥한다.
 
 intercept 함수는 다음과 같다.
-```
+```java
 @Override
 @Nullable
 public Object intercept(Object proxy, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {

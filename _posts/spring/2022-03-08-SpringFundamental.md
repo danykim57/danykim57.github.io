@@ -81,7 +81,7 @@ tags:
 
 Main 클래스를 다음과 같이 구성하였다. 
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.ApplicationContext;
@@ -97,7 +97,7 @@ public class App {
 ApplicationContext를 클릭하고 Cmd + B를 누르면 소스 코드를 보여준다.
 
 다음은 ApplicationContext 인터페이스가 어떤 다른 인터페이스를 확장하는지 보여주는 부분이다.
-```
+```java
 public interface ApplicationContext extends EnvironmentCapable, ListableBeanFactory, HierarchicalBeanFactory,
 		MessageSource, ApplicationEventPublisher, ResourcePatternResolver
 ```

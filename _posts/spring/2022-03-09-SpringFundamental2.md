@@ -30,7 +30,7 @@ ApplicationContext가 이 세가지를 지원한다는 것은 다음과 같이 �
 
 leSystemXmlApplicationContext를 누르고 cmd + p를 누르면 사용할 수 있는 매개변수의 타입들을 보여준다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.ApplicationContext;
@@ -58,7 +58,7 @@ xml의 namespace를 스프링 프레임워크의 빈을 쓰고 스키마 인스�
 
 마무리로 스프링 빈을 위한 스키마의 위치를 맵핑시킨다.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -82,7 +82,7 @@ BUILD SUCCESSFUL in 698ms
 
 ClassPath를 통해 환경설정을 하기 위해서 다음과 같이 App 클래스를 변경하였다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.ApplicationContext;
@@ -105,7 +105,7 @@ ClassPathXmlApplicationContext는 main 모듈 아래에 resources에서 환경�
 
 xml 내용은 방금전과 똑같이 넣어주었다.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -129,7 +129,7 @@ xml 파일을 다음과 같이 변경하여 보았다.
 
 이 부분 -> class="com.dan.practice.demos.myapp.MyService"
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -140,7 +140,7 @@ xml 파일을 다음과 같이 변경하여 보았다.
 
 그리고 App과 같은 패키지에 MyService 클래스를 생성시켜서 다음과 같이 짜주었다
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 public class MyService {
@@ -152,7 +152,7 @@ public class MyService {
 
 App 클래스를 다음과 같이 변경하였다.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.ApplicationContext;
@@ -192,7 +192,7 @@ BUILD SUCCESSFUL in 934ms
 
 다음과 같이 App 클래스를 변경해보자
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.context.ApplicationContext;
@@ -218,7 +218,7 @@ Ctrl + shift + D 로 디버깅 모드로 들어가서 Step Over(F8)로 확인을
 
 resources 아래의 xml파일의 빈에 스코프라는 옵션을 넣어 주자.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -250,7 +250,7 @@ http request 스코프를 이용하면 객체가 http 요청 동안에만 존재
 
 resources 내의 xml파일을 다음과 같이 변경하였다.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -265,7 +265,7 @@ resources 내의 xml파일을 다음과 같이 변경하였다.
 
 MyService를 다음과 같이 변경하도록 하자.
 
-```
+```java
 package com.dan.practice.demos.myapp;
 
 import org.springframework.stereotype.Component;
