@@ -22,7 +22,7 @@ tags:
 
  Abstract 클래스는 다음과 같은 형태를 가지고 있다.
 
-```
+```java
 public abstract class MyAbstractClass {
     public abstract void meh();  //추상 메소드
     public void sayBoy() {       //구현이 들어간 메소드
@@ -41,7 +41,7 @@ Abstract 클래스는 위와 같이 추상 메소드(Abstract Method)나 구현�
 
  서브클래스의 예시는 다음과 같다.
 
-```
+```java
 public class MySubClass extends MyAbstractClass{
     public void meh() {
         System.out.println("Meh ");
@@ -54,7 +54,7 @@ public class MySubClass extends MyAbstractClass{
 
  Interface는 다음과 같은 형태를 가지고 있다.
 
-```
+```java
 interface MyInterface {
   public void wham(int num); // 인터페이스 메소드
   public void boom(String someWords); // 인터페이스 메소드
@@ -68,7 +68,7 @@ interface MyInterface {
 
   클래스가 Abstract를 상속받을 때는 extends 키워드를 사용한다.
 
-```
+```java
 public class MySubclass extends MyAbstractClass {
 
     @Override
@@ -81,7 +81,7 @@ public class MySubclass extends MyAbstractClass {
 
   클래스가 Interface를 구현해야할 때 implements 키워드를 사용한다.
 
-```
+```java
 public class MySubclass2 implements MyInterface {
     @Override
     public void boom(String someWords) {
@@ -124,7 +124,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
 
 4가지 메소드가 포함된 인터페이스의 예제는 다음과 같다.
 
-```
+```java
 public interface MyInterfaceClass {
     int thisIsConstant = 1; //상수 변수
 

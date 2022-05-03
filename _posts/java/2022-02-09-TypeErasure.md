@@ -11,7 +11,7 @@ tags:
 
 해결하기 위해서 나온 언어인데 재미있는 점은 간단한 "Hello, World"를 출력시키는데도 너무나도 복잡해 보인다는 것 이다.
 
-```
+```cpp
 //C에서의 Hello, World!
 #include <stdio.h>
 int main() {
@@ -20,7 +20,7 @@ int main() {
 }
 ```
 
-```
+```java
 //자바에서의 Hello, World!
 class HelloWorld {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ class HelloWorld {
 ```
 
 
-```
+```python
 //파이썬에서의 Hello, World!
 print("Hello, World")
 ```
@@ -66,7 +66,7 @@ Constructor, getter, setter, 등은 더더욱 코드를 더 비대하게 만들�
 코드는 여전히 비대하다.
 
 밑의 코드는 Lombok을 사용하여서 boilerplate를 그나마 많이 줄여놓은 예제 코드이다.
-```
+```java
 @Entity
 @Getter @Setter @NoArgsConstructor
 public class User implements Serializable {

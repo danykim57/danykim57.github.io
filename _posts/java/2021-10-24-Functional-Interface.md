@@ -23,7 +23,7 @@ tags:
 
 이런 반복적으로 나오는 코드들인 보일러 플레이트 코드를 피하면서 간단하게 사용할 함수만 만들도록 도와주는게 함수형 인터페이스이다.
 
-```
+```java
 @FunctionalInterface
 interface CustomInterface<T> {
     T call();

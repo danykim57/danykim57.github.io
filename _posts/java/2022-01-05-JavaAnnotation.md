@@ -43,7 +43,7 @@ tags:
 
 
  예제)
-```
+```java
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.Type)
 public @interface JsonSerializable {

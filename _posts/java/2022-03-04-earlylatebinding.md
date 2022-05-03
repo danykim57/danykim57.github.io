@@ -14,7 +14,7 @@ tags:
 
 자주 쓰이는 Shape 클래스 예제로 보도록 하자.
 
-```
+```java
 abstract class Shape {
    private int x;
    private int y;
@@ -42,7 +42,7 @@ abstract class Shape {
 
 Rectangle 클래스는 Shape 클래스를 상속한다.
 
-```
+```java
 class Rectangle extends Shape {
    private int width;
    private int height;
@@ -67,7 +67,7 @@ class Rectangle extends Shape {
 
 Shape를 받는 레퍼런스에 Rectangle 객체를 생성하여서 할당하고 draw() 함수를 실행시켜보자
 
-```
+```java
 public class MainFunc {
     public static void main(String[] args) {
         Shape shape = new Rectangle(1, 2, 3, 4);

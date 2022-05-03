@@ -17,7 +17,7 @@ toString은 String 형태의 객체나 클래스를 반환하라는 함수이다
 
 예제는 다음과 같다.
 
-```
+```java
 public class Employee {
     Integer id;
     String name;
@@ -37,7 +37,7 @@ public class Employee {
 }
 ```
 
-```
+```java
 public class Employee {
     Integer id;
     String name;
@@ -56,7 +56,7 @@ public class Employee {
 equal는 해당 객체나 클래스가 파라미터에 들어가는 객체나 클래스와 같은지
 
 비교해달라는 함수이다.
-```
+```java
 @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -71,7 +71,7 @@ equal는 해당 객체나 클래스가 파라미터에 들어가는 객체나 �
 
 hashCode는 O(1) 상수 시간복잡도로 해시테이블을 사용해야할 때 해쉬값을 만들어주는 함수이다.
 
-```
+```java
 @Override
     public int hashCode() {
         int result = id != null ? id.hashCode() : 0;

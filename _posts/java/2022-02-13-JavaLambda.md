@@ -30,7 +30,7 @@ parameter -> expression
 
 람다식의 예시는 다음과 같다.
 
-```
+```java
 import java.util.ArrayList;
 
 public class Main {
