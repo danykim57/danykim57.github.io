@@ -58,7 +58,8 @@ resources 디렉토리의 application-property.xml 파일을 변경해주었다.
 <?xml version="1.0" encoding="utf-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="service" class="com.dan.practice.demos.myapp.MyService">
         <constructor-arg ref="repository"/>
     </bean>
