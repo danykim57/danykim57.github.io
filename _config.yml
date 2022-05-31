@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Yeongin Kim"
-  avatar           : "/assets/images/wow-such-empty.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Circle-icons-rocket.svg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Newton's third law"
   location         : "Republic of Korea"
   email            :
