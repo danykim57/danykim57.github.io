@@ -58,6 +58,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "ps" %}
+                        <li><a href="/categories/ps" class="">코딩문제풀이({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "db" %}
                         <li><a href="/categories/db" class="">DB({{category[1].size}})</a></li>
                     {% endif %}
