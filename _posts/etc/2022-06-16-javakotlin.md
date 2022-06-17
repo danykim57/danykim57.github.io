@@ -8,13 +8,13 @@ tags:
   - 잡설
 ---
 
-**번역 문서입니다.
+**번역 포스트입니다.**
 
-불변 참조 (Immutable references)
+**불변 참조 (Immutable references)**
 
-자바는 시작 때부터 불변참조를 가지고 있었다.
+자바는 시작 때부터 불변참조를 가지고 있었습니다..
 
-불변참조를 다음에서 사용할 수 있다.
+불변참조를 다음에서 사용할 수 있습니다.
 
 - 클래스내의 값(attributes)
 - 메소드내의 파라미터
@@ -30,25 +30,23 @@ class Foo {
 }
 ```
 
-불변참조는 고치기 힘든 버그들을 어느 정도 예방할 수 있다. 흥미롭게도 final 키워드는 
+불변참조는 고치기 힘든 버그들을 어느 정도 예방할 수 있습니다. 그러나, 흥미롭게도 final 키워드는 
 
-생각보다 많은 프로젝트들에서 쓰이질 않는다.
+생각보다 많은 자바 프로젝트들에서 쓰이질 않습니다.
 
 예를 들어서, 스프링의 GenericBean은 불변값을 사용하지만 
 
-불변 메소드나 불변 지역변수를 사용하지 않는다.
+불변 메소드나 불변 지역변수를 사용하지 않습니다.
 
-slf4j의 DefaultLoggingEventBuilder는 위의 3가지를 다 사용하지 않는다.
+slf4j의 DefaultLoggingEventBuilder는 위의 3가지(불변값, 불면 메소드, 불변 지역변수)를 다 사용하지 않습니다.
 
 
 
-자바에서는 불변참조가 필수사항이 아니다. 기본값으로 참조는 가변적이다. 그래서 대부분의 자바 코드들은
+자바에서는 불변참조가 필수사항이 아닙니다. 기본값으로 참조는 가변적입니다(mutable). 그래서 대부분의 자바 코드들은
 
-불변참조의 장점을 활용하지 못한다.
+불변참조의 장점을 활용하지 못합니다.
 
-코틀린에서는 참조의 가변성은 선택사항이 아니다. 모든 값과 변수는 val이나 var로 선언되어야한다.
-
-메소드 파라미터는 재정의할 수 없다.
+코틀린에서는 참조의 가변성은 선택사항이 아닙니다. 모든 값과 변수는 val이나 var로 선언되어야한다.
 
 코틀린에서 var과 val의 차이점
 
@@ -61,20 +59,20 @@ val:
   - 선언시에 값이 할당되면 변경할 수 없다.
   - 변경을 할 경우에 컴파일러 에러가 발생한다.
 
-자바에서의 var은 컴파일러가 추론적으로 데이터 타입을 할당할 수 있는 용도로만 쓰인다.
+자바에서의 var은 컴파일러가 추론적으로 데이터 타입을 할당할 수 있는 용도로만 쓰입니다.
 
 
-널값 안정성(Null Safety)
+**널값 안정성(Null Safety)**
 
-자바에서는 변수의 값이 null인지 알 수가 없다. 명확하게 말하자면 Java8에서
+자바에서는 변수의 값이 null인지 알 수가 없습니다. 명확하게 말하자면 Java8에서
 
-Optional 타입을 소개하지만 Optional은 값이 null일 수 있다라는 것을 암시한다. 다른 타입을 리턴할 경우에는
+Optional 타입을 소개하지만 Optional은 값이 null일 수 있다라는 것을 암시합니다. 다른 타입을 리턴할 경우에는
 
-null이 아닐 것이다를 명시한다.
+null이 아닐 것이다를 명시합니다.
 
-그러나, Optional을 만든 개발자는 리턴값에서만 작동하도록 설계를 하였다. 자바 언어 문법에서 
+그러나, Optional을 만든 개발자는 리턴값에서만 작동하도록 설계를 하였습니다. 자바 언어 문법에서 
 
-메소드 파라미터나 메소드 리턴값이 null일 것이라는 것을 명시할 수 없다.
+메소드 파라미터나 메소드 리턴값이 null일 것이라는 것을 명시할 수 없습니다.
 
 
 | Project   | Package                   | Non-null annotation | Nullable annotation |
@@ -84,8 +82,8 @@ null이 아닐 것이다를 명시한다.
 | JetBrains | org.jetbrains.annotations | @Nonnull            | @Nullable           |
 
 
-몇몇 라이브러리들은 특정 IDE환경에만 작동된다. 더해서, 이 라이브러리들 간의 호환성은 기대할 수 가 없다.
-어떤 라이브러리를 사용할 지는 스택오버플로우의 질문자가 정하는 경우가 많다.
+몇몇 라이브러리들은 특정 IDE환경에만 작동됩니다. 더해서, 이 라이브러리들 간의 호환성은 기대할 수 가 없습니다.
+어떤 라이브러리를 사용할 지는 스택오버플로우의 질문자가 정하는 경우가 많습니다.
 
 예시: [NullpointerException: stackoverflow](https://stackoverflow.com/questions/4963300/which-notnull-java-annotation-should-i-use)
 
@@ -98,31 +96,31 @@ val nullable: String? = computeNullableString()
 ```
 
 
-확정 함수(Extension functions)
+**확장 함수(Extension functions)**
 
-자바에서는 서브클래스가 하나의 클래스만을 확장(extend)할 수 있다.
+자바에서는 서브클래스가 하나의 클래스만을 확장(extend)할 수 있습니다.
 
 ```java
 class Foo {}
 class Bar extends Bar {}
 ```
 
-서브클래싱은 두가지의 문지를 가지고 있다.
+서브클래싱은 두가지의 문제를 가지고 있습니다.
 
-첫번째 문제는 몇몇 클래스는 final 키워드를 이용하여서 확장을 하지 못하도록 한다.
+첫번째 문제는 몇몇 클래스는 final 키워드를 이용하여서 확장을 하지 못하도록 합니다.
 
 예시) String 클래스
 
-두번째 문제는 우리가 제어할 수 없는 메소드가 타입을 리턴할 경우에 클라이언트 개발자의 의도와는 다르게 이 타입으로만 작업을 하여야한다.
+두번째 문제는 우리가 제어할 수 없는 메소드가 타입을 리턴할 경우에 클라이언트 개발자의 의도와는 다르게 이 타입으로만 작업을 하여야합니다.
 
-이 문제로 자바 개발자들은 활용 클래스(utility classes)라는 개념을 만들었다.
+이 문제로 자바 개발자들은 활용 클래스(utility classes)라는 개념을 만들었습니다.
 
-활용 클래스는 static한 메소드들과 private한 Constructor로 이루어져있다. 고로, 활용 클래스는 인스턴스화 시킬수 없다.
+활용 클래스는 static한 메소드들과 private한 Constructor로 이루어져있습니다. 고로, 활용 클래스는 인스턴스화 시킬수 없습니다.
 
-이러여야만 하는 이유는 자바가 메소드를 클래스 외부에서 사용되지 못하도록 막기 때문이다.
+활용 클래스가 이러한 형태를 가지는 이유는 자바가 메소드를 클래스 외부에서 사용되지 못하도록 막기 때문입니다. (자바에서는 일급 객체(First-Citizen Object)가 없습니다.)
 
 
-이 방식으로 메소드가 필요한 타입으로 존재 하지 않을 경우 활용 클래스는 그 타입을 파라미터로 받아서 필요한 처리를 할 수 있도록 도와준다.
+이 방식으로 메소드가 필요한 타입으로 존재하지 않을 경우 활용 클래스는 그 타입을 파라미터로 받아서 필요한 처리를 할 수 있도록 도와줍니다.
 
 ```java
 class StringUtils {                                          
@@ -140,9 +138,9 @@ String capitalizedString = StringUtils.capitalize(string);
 ```
 
 
-이전에는 개발자들이 활용 클래스를 프로젝트내에서 만들었지만 지금은 Apache Commons Lang이나 Guava를 통해서 처리한다.
+이전에는 개발자들이 활용 클래스를 프로젝트내에서 만들었지만 지금은 Apache Commons Lang이나 Guava를 통해서 처리합니다.
 
-코틀린은 같은 문제를 확장함수(extension function)들로 해결하였다.
+코틀린은 같은 문제를 확장함수(extension function)들로 해결하였습니다.
 
 >
 > > 코틀린은 데코레이터와 같은 디자인 패턴이나 클래스 상속없이도 클래스나 인터페이스의 새로운 기능을 확장할 수 있도록 지원합니다. 
@@ -166,13 +164,13 @@ val capitalizedString = string.capitalize2()
 
 Reified generics
 
-제너릭은 자바5에 도입되었다. 그러나, 하위 호환성(backward compatibility) 문제로 자바5 바이트코드는 자바5 이전의 바이트코드들과 호환이 되어야 했고
+제너릭은 자바5에 도입되었습니다. 그러나, 하위 호환성(backward compatibility) 문제로 자바5 바이트코드는 자바5 이전의 바이트코드들과 호환이 되어야 했고
 
-제너릭 타입이 생성된 바이트코드로 되어있지 않은 이유이다: 이것을 type erasure라고 부른다.
+제너릭 타입이 생성된 바이트코드로 되어있지 않은 이유입니다: 이것을 type erasure라고 부릅니다.
 
-반대로는 reified generics이 있다. 제너릭 타입이 바이트코드로 쓰여지면 reified generics이다. 
+반대로는 reified generics이 있습니다. 제너릭 타입이 바이트코드로 쓰여지면 reified generics가 됩니다. 
 
-제너릭 타입이 컴파일 때만 고려되는 것은 다음과 같은 문제를 야기한다. 다음의 두 메소드 시그니쳐는 같은 바이트코드를 생성하여서 코드가 유효하지 않다.
+제너릭 타입이 컴파일 때만 고려되는 것은 다음과 같은 문제를 야기합니다. 다음의 두 메소드 시그니쳐는 같은 바이트코드를 생성하여서 코드가 유효하지 않습니다.
 
 ```java
 class Bag {
@@ -181,7 +179,7 @@ class Bag {
 }
 ```
 
-또다른 문제는 컨테이너 값들 중에서 특정 타입의 값을 뽑아내느냐 이다.
+또다른 문제는 컨테이너 값들 중에서 특정 타입의 값을 뽑아내느냐 입니다.
 
 ```java
 public interface BeanFactory {
@@ -189,9 +187,9 @@ public interface BeanFactory {
 }
 ```
 
-개발자들은 Class<T>라는 파라미터를 넣어서 메소드 바디에서 타입을 알 수 있더록 하였다.
+개발자들은 Class<T>라는 파라미터를 넣어서 메소드 바디에서 타입을 알 수 있더록 하였습니다.
 
-만약에 자바가 reified generics를 지원하였다면 코드는 다음과 같아졌을 것 이다.
+만약에 자바가 reified generics를 지원하였다면 코드는 다음과 같아졌을 것 입니다.
 
 ```java
 public interface BeanFactory {
@@ -199,7 +197,7 @@ public interface BeanFactory {
 }
 ```
 
-코들에 reified generics가 있으면 코드는 다음과 같아진다.
+코들린에 reified generics가 있으면 코드는 다음과 같아집니다.
 
 ```kotlin
 interface BeanFactory {
@@ -214,9 +212,9 @@ val factory = getBeanFactory()
 val anyBean = getBean<Any>()
 ```
 
-코틀린은 여전히 JVM의 요구사항과 자바 컴파일러로 생성된 바이트코드와 호환이 되어야한다.
+코틀린은 여전히 JVM의 요구사항(JVM Specification)과 자바 컴파일러로 생성된 바이트코드와 호환이 되어야합니다.
 
-이것은 inlining으로 해결할 수 있다.
+이것은 inlining으로 해결할 수 있습니다.
 
 inlining: 컴파일러가 인라인 메소드를 함수 바디와 교체하도록 하는 방법.
 
@@ -229,7 +227,7 @@ inline fun <reified T : Any> BeanFactory.getBean(): T = getBean(T::class.java)
 
  코틀린의 기능들인 immutable references, null safety, extension functions, reified generics를 이용하면 
 
-Kotlin Routes나 Beans DSL과 같은 DSL(Domain Specific Language)를 만들 수 있다.
+Kotlin Routes나 Beans DSL과 같은 DSL(Domain Specific Language)를 만들 수 있습니다.
 
 ```kotlin
 beans {
@@ -241,9 +239,7 @@ beans {
 }
 ```
 
-
-
-
+JVM의 커스터마이징을 위해서만 자바를 사용하고 프로젝트 개발은 앞으로도 코틀린으로만 하게 될 것 같습니다.
 
 
 참조: 
