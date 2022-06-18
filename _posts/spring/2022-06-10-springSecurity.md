@@ -21,6 +21,7 @@ tags:
 위의 그림은 일반적인 HTTP Request에 대한 핸들러의 레이어를 보여줍니다.
 
 좀 더 세부적으로 보여주는 아키텍쳐 구조는 다음과 같다.
+
 ![springsec_2](../../assets/images/springsec/spring_sec_2.png)
 
 1. AuthenticaionFilter가 HttpRequest를 받고 확인(validation)을 해준다.
