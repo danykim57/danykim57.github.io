@@ -3,9 +3,9 @@ title:  "레인지 합 쿼리"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
-- ps
-  tags:
-- PS
+  - ps
+tags:
+  - PS
 ---
 
 https://leetcode.com/problems/range-sum-query-mutable/
