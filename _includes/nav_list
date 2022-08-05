@@ -51,6 +51,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                     {% if category[0] == "flutter" %}
+                         <li><a href="/categories/flutter" class="">Flutter({{category[1].size}})</a></li>
+                     {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "os" %}
                         <li><a href="/categories/os" class="">OS({{category[1].size}})</a></li>
                     {% endif %}
