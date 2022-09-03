@@ -18,6 +18,8 @@ tags:
 
 타임리프의 의존성을 추가시키면 수동으로 처리해야할 설정을 자동으로 처리해준다.
 
+아래는 pom.xml에 들어가는 타임리프 의존성의 추가 예시이다.
+
 ```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
