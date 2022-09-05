@@ -41,3 +41,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 헤더 보안과 Xframe 옵션을 끄는 항목들이다.
 
 여기서 .headers()를 안꺼도 h2-console은 사용이 가능하다. 
+
+여기서 http.csrf()는 CORS(Cross Origin Resource Sharing)을 할 때
+
+리소스의 출처의 확인의 취약점을 이용한 csrf(Cross Site Request Forgery) 관련 보안 기능이다.
