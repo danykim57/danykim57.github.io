@@ -3,9 +3,9 @@ title:  "RequestEntity, ResponseEntity"
 header:
 teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories:
-  - spring
+  - Backend
 tags:
-  - Spring
+  - Backend
 ---
 
 Http 요청과 응답을 담당하는 클래스인 HttpEntity가 있다.
